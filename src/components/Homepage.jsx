@@ -36,7 +36,7 @@ function Homepage() {
     // };
     const fetchData = async () => {
         try {
-            const response = await axios.post(`http://localhost:8081/vekhuhoi`, { diemdi,  diemden, ngaydi, ngayden }
+            const response = await axios.post(`https://xdweb-be.onrender.com/vekhuhoi`, { diemdi,  diemden, ngaydi, ngayden }
             );
             setFlights(response.data.data); // Cập nhật danh sách các chuyến bay từ dữ liệu phản hồi
             console.log(response.data.data);
