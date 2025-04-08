@@ -11,7 +11,7 @@ function Header() {
   useEffect(() => {
     const checktoken = async () => {
       try {
-        const res = await axios.get(`http://localhost:8081/auth`)
+        const res = await axios.get(`https://xdweb-be.onrender.com/auth`)
         if (res.data.Status === "Success") {
           console.log(res);
           setAuth(true)
@@ -28,7 +28,7 @@ function Header() {
     checktoken();
   }, [])
   function handleLogout() {
-    axios.get(`http://localhost:8081/logout`)
+    axios.get(`https://xdweb-be.onrender.com/logout`)
       .then(res => {
         window.location.reload();
       }).catch(err => console.log(err))
