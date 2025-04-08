@@ -1,0 +1,273 @@
+body{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h1{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+h3{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+p{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+hr{
+  margin: 0 0 0 0;
+  padding:  0 0 0 0;
+}
+.header{
+  display: flex;
+  align-items: center;
+  margin: 0 150px;
+}
+.header-top{
+  flex-basis: 18%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 24px;
+  font-family: monospace;
+}
+.header-mid{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.header-mid p{
+  font-size: 18px;
+  font-weight: bold;
+}
+.header-bot{
+  flex-basis: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;  
+}
+.header-bot button{
+  padding: 8px 10px 8px 10px;
+  font-weight: bold;
+}
+.header-top img{
+  width: 100px;
+  height: 100px;
+}
+.middle{
+  background-image: url(../assets/hinhnen.jpg);
+  width: 100%;
+  height: 420px;
+}
+.middle-form{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle-Timve{
+  margin: 0 150px;
+  background-color: white;
+  z-index: 1;
+  width: fit-content;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.Timve-loaive{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.Timve-vitri{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 10px;
+}
+.Timve-thoigian{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 10px;
+}
+.Timve-vitri input{
+  width: 93%;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.Timve-thoigian input{
+  width: 93%;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.Timve-hanhkhach{
+  display: flex;
+  gap: 30px;
+}
+.Timve-hanhkhach1{
+  margin-top: 10px;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Timve-hanhkhach-input{
+  display: flex;
+  flex-direction: row;
+}
+.Timve-hanhkhach-input input{
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.Timve-hanhkhach1-submit{
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+.Timve-hanhkhach1-submit button{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #008DDA;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+select{
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: 2px solid black;
+
+}
+.overplay{
+  background-color: black;
+  position: absolute;
+  top: 101px;
+  opacity: 0.5;
+  width: 100%;
+  height: 422px;
+}
+.middle-resultSearch{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 50px;
+}
+.info-chuyenbay{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.info-chuyenbay-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.booking{
+  margin: 0px 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+.booking-background{
+  background-image: url(../assets/backgroundForm.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.booking-box{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.booking-box-info{
+  flex-basis: 40%;
+}
+.booking-box-traveler{
+  flex-basis: 60%;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.booking-infoFlight{
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 10px;  
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.booking-box-traveler-form{}
+.booking-box-traveler-form-input{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.booking-box-traveler-form-input input{
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.booking-box-traveler-form-input-name{
+  display: flex;
+  gap: 30px;
+}
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 250px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #338ec9;
+  font-size: 15px;
+}
+
+.login-form input {
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+  color: #338ec9;
+  border: none;
+  border-radius: 5px;
+}
