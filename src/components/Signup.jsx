@@ -14,7 +14,7 @@ function Login() {
     const navigate = useNavigate();
     function HandleSubmit(e){
         e.preventDefault();
-        axios.post(`http://localhost:8081/signup`,values)
+        axios.post(`https://xdweb-be.onrender.com/signup`,values)
         .then(res => {
             alert("Đăng ký thành công")
             navigate("/");
