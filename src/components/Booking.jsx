@@ -18,7 +18,7 @@ function Booking() {
     const [gia, setgia] = useState(selectedFlight.price.total*26000)
     function handleSubmit(e){
         e.preventDefault();
-        axios.post("http://localhost:8081/datve",{mamaybay,diemdi,diemden,ngaydi,ngayden,hanghangkhong,gia,ho,ten,email,sdt,dc})
+        axios.post("https://xdweb-be.onrender.com/datve",{mamaybay,diemdi,diemden,ngaydi,ngayden,hanghangkhong,gia,ho,ten,email,sdt,dc})
     }
     return (
         <>
