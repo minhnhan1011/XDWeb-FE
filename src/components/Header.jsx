@@ -28,11 +28,13 @@ function Header() {
     checktoken();
   }, [])
 function handleLogout() {
-    axios.get(`https://xdweb-be.onrender.com/logout`, { withCredentials: true })
-      .then(res => {
-        window.location.reload();
-      }).catch(err => console.log(err))
-  }
+  axios.get(`https://xdweb-be.onrender.com/logout`, { withCredentials: true })
+    .then(res => {
+      setAuth(false);
+      setName('');
+    })
+    .catch(err => console.log(err));
+}
     return (
         <div className="header">
             <div className="header-top">
