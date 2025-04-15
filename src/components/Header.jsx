@@ -27,8 +27,8 @@ function Header() {
     }
     checktoken();
   }, [])
-  function handleLogout() {
-    axios.get(`https://xdweb-be.onrender.com/logout`)
+function handleLogout() {
+    axios.get(`https://xdweb-be.onrender.com/logout`, { withCredentials: true })
       .then(res => {
         window.location.reload();
       }).catch(err => console.log(err))
